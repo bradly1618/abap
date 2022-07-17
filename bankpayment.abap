@@ -1,23 +1,23 @@
 *&---------------------------------------------------------------------*
-*&                   PETRA ENERGY
+*&                  
 *&---------------------------------------------------------------------*
-*& Report Name  : ZFAPAR010
-*& Report Title : OCBC Payment Advice Creation
-*& SAP Release  : SAP S/4HANA 1709
-*& Programmer   : Abd Jalil bin Md Khamis (LIC04)
-*& Functional   : Hassan/Saufil
+*& Report Name  : 
+*& Report Title : 
+*& SAP Release  : 
+*& Programmer   : 
+*& Functional   : 
 *& Reference    :
-*& Date Created : 01/06/2022
+*& Date Created : 
 *&---------------------------------------------------------------------*
 *&                DEVELOPMENT / MODIFICATION HISTORY
 *&---------------------------------------------------------------------*
 *& No.  |Ver. #   |Date             |Author        |Transport#
 *&---------------------------------------------------------------------*
-*& 01   |001      |08/10/2021       |LIC04       |  PEDK905467
+*&    |      |      |      |  
 *&---------------------------------------------------------------------*
 *&                       Description Transport
 *----------------------------------------------------------------------*
-REPORT ZFAPAR010
+REPORT ZBANKPAYMENT
        LINE-SIZE  132
        LINE-COUNT 65
        MESSAGE-ID ZF001
@@ -56,7 +56,7 @@ DATA:LT_REGUH          TYPE TABLE OF REGUH WITH HEADER LINE,
      LT_GIRO           TYPE TABLE OF REGUH WITH HEADER LINE,
      LT_RENTASTT_REGUH TYPE TABLE OF REGUH WITH HEADER LINE,
      LT_RENTASTT_REGUP TYPE TABLE OF REGUP WITH HEADER LINE,
-     LT_GIRO_FILE      TYPE TABLE OF TY_GIRO_OCBC WITH HEADER LINE,
+     LT_GIRO_FILE      TYPE TABLE OF TY_GIRO_ WITH HEADER LINE,
      LT_LEAF           TYPE TABLE OF SETLEAF WITH HEADER LINE,
      LS_REGUH          TYPE REGUH,
      LS_LEAF           TYPE SETLEAF,
