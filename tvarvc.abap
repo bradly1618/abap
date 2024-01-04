@@ -1,4 +1,5 @@
 *Using TVARC and used it as selection parameter.
+"Used this Tcode to maintain STVARV 
 
 
   DATA lt_param_sf TYPE STANDARD TABLE OF tvarvc.
