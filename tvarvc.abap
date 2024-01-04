@@ -4,7 +4,7 @@
   DATA lt_param_sf TYPE STANDARD TABLE OF tvarvc.
       get_tvarc(
          EXPORTING
-           iv_name  = 'Z_OTCIN_VAT_CALCULATE'
+           iv_name  = 'Z_VAT_CALCULATE'
          IMPORTING
            et_param = lt_param_sf
        ).
