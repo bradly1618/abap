@@ -1,7 +1,8 @@
 *Using TVARC and used it as selection parameter.
 "Used this Tcode to maintain STVARV 
 
-
+TYPES: ty_pstyv TYPE RANGE OF pstyv. " Item Categories
+DATA gr_pstyv               TYPE ty_pstyv.
   DATA lt_param_sf TYPE STANDARD TABLE OF tvarvc.
       get_tvarc(
          EXPORTING
